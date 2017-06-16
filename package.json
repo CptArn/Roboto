@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "tsc --project ./",
-	"watch": "tsc --project ./ --watch"
+    "build": "tsc --project ./",
+    "watch": "tsc --project ./ --watch"
   },
   "author": "Gheerwijn Clicque, Arne Vlaeminck",
   "license": "ISC",
   "dependencies": {
-    "johnny-five": "0.11.1"
+    "johnny-five": "0.11.1",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "@types/johnny-five": "0.0.31",
+    "say": "^0.11.0",
     "ts-loader": "2.1.0",
     "typescript": "2.3.4"
   }
