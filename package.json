@@ -12,12 +12,15 @@
   "license": "ISC",
   "dependencies": {
     "johnny-five": "0.11.1",
-    "moment": "^2.18.1"
+    "moment": "2.18.1",
+    "node-record-lpcm16": "^0.3.0",
+    "node-witai-speech": "1.0.2",
+    "request": "^2.81.0",
+    "say": "0.11.0"
   },
   "devDependencies": {
     "@types/johnny-five": "0.0.31",
-    "say": "^0.11.0",
-    "ts-loader": "2.1.0",
+    "@types/request": "0.0.44",
     "typescript": "2.3.4"
   }
 }
