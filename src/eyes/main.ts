@@ -1,5 +1,5 @@
 import Config from '../config/pinConfig';
-import {Led} from 'johnny-five';
+import { Led } from 'johnny-five';
 
 export class Eyes {
 	private leftLed: Led;

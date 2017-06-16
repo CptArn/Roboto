@@ -13,4 +13,8 @@ export class Speak {
 	public getDateString(): string {
 		return moment().format('[Today is] dddd Do [of] MMMM[. The time is] H:mm');
 	}
+
+	public introduction(): string {
+		return 'Hello, my name is ...! I am ready to serve you';
+	}
 }

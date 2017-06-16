@@ -1,7 +1,6 @@
 import Config from '../config/pinConfig';
 import Keys from '../config/keys';
 import {Button} from 'johnny-five';
-import {BingSpeechClient, VoiceRecognitionResponse} from 'bingspeech-api-client';
 import {EventEmitter} from 'events';
 
 export class SpeechRecognition extends EventEmitter {
