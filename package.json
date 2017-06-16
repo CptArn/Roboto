@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "tsc --project ./",
+	"watch": "tsc --project ./ --watch"
   },
   "author": "Gheerwijn Clicque, Arne Vlaeminck",
   "license": "ISC",
@@ -14,7 +16,6 @@
   "devDependencies": {
     "@types/johnny-five": "0.0.31",
     "ts-loader": "2.1.0",
-    "typescript": "2.3.4",
-    "webpack": "2.6.1"
+    "typescript": "2.3.4"
   }
 }
