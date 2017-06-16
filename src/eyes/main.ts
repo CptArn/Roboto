@@ -6,7 +6,6 @@ export class Eyes {
 	private rightLed: Led = new Led(Config['right-eye']);
 
 	constructor() {
-		console.log(Config['left-eye']);
 		this.leftLed = new Led(Config['left-eye']);
 		this.rightLed = new Led(Config['right-eye']);
 		this.turnOnEyes();
