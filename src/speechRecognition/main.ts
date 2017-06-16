@@ -2,7 +2,6 @@ import Config from '../config/pinConfig';
 import Keys from '../config/keys';
 import {Button} from 'johnny-five';
 import {EventEmitter} from 'events';
-import SpeechToText from 'speech-to-text';
 import * as rec from 'node-record-lpcm16';
 import * as request from 'request';
 
