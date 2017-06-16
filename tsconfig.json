@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+        "module": "system",
+        "removeComments": true,
+		"sourceMap": true,
+		"types" : ["node"],
+		"outFile": "./dist/app.js"
+    },
+	"files": [
+		"./src/main.ts"
+	],
+	"exclude": [
+        "node_modules"
+    ]
+}
