@@ -13,6 +13,7 @@ export class SpeechRecognition extends EventEmitter {
 			pin: Config['speechSwitch'],
 	  		invert: false
 		});
+		
 		this.button.on('hold', () => {
 			console.log('rec start');
 			rec.start().pipe(request.post({
